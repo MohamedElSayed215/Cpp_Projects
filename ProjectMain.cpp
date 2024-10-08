@@ -1,5 +1,6 @@
 
-#include "ProjectServices.hpp"
+#include "ProjectMain.hpp"
+#include <cstdlib>
 int	main(int argc, char **argv)
 {
     std::cout<<"Control Program ! " <<std::endl ; 
@@ -37,7 +38,7 @@ int	main(int argc, char **argv)
                     {
                         break ; 
                     }               
-                    DisplayService[Primary_Choice][Secondary_Choice]() ;
+                   WIFI_Services[Secondary_Choice]() ;
                     sleep(2) ; 
                      
                 }
@@ -59,15 +60,15 @@ int	main(int argc, char **argv)
                         {
                             break ; 
                         }
-                        DisplayService[Primary_Choice][Secondary_Choice]() ;
+                        WIFI_Services[Secondary_Choice]() ;
                         sleep(2) ;      
                     } 
                     break;
             case 2 : 
                 std::cout<< "Thanks for your usage my Program .. " <<std::endl ;
-                break;        
+                exit (0) ;        
         }
-        break  ;
+          
     }
 
 

@@ -12,5 +12,6 @@ void Connect_to_WIFI_Network();
 void Remove_Saved_WIFI_Network();
 void Modify_Saved_WIFI_Network();
 void Search_Network();
+extern void (*WIFI_Services[7])();
 
 #endif 
