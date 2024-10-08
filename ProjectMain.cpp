@@ -60,7 +60,7 @@ int	main(int argc, char **argv)
                         {
                             break ; 
                         }
-                        WIFI_Services[Secondary_Choice]() ;
+                        Bluetooth_Services[Secondary_Choice]() ;
                         sleep(2) ;      
                     } 
                     break;
