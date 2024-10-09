@@ -1,6 +1,7 @@
 #ifndef __BLUETOOTH__H__
 #define __BLUETOOTH__H__
 #include <iostream>
+#include <sstream>
 using namespace std ; 
 void Display_Bluetooth_Status();
 void Turn_on_Bluetooth();
